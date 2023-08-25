@@ -1,7 +1,10 @@
+#part question 1 part a
+
 import os
 import matplotlib.pyplot as plt
 from statistics import mode
 # part a done
+
 base_dir = 'IMAGE_DATA/IMAGE_DATA'
 entries = os.listdir(base_dir)
 class_counts = {}
@@ -19,14 +22,19 @@ for entry in entries:
         num_files = len(os.listdir(folder_path))
         class_counts[entry] = num_files
         print(f"Folder: {entry} - Number of files: {num_files}")
+        # correct gives no of files in each  entry (class) 
+        # find no of images in each entry using len function
+
         # Folder: AIRPLANE - Number of files: 20
         # Folder: CARS - Number of files: 20
         # Folder: ELEPHANTS - Number of files: 39
         # Folder: RANDOM - Number of files: 20
         # Folder: ROBOTS - Number of files: 21
-# Identifying the mode (most common class)
+
+# Identifying the mode (most common no of images in each class)
 modeofnumberofimageineachclass = mode(class_counts.values())
 
+# classes which dont have most occuring amount of images as in other classes
 imbalanced_classes = [cls for cls, count in class_counts.items() if count != modeofnumberofimageineachclass ]
 print("Imbalanced classes:", imbalanced_classes)
 
@@ -39,6 +47,7 @@ plt.title('Number of Images per Class')
 plt.xticks(rotation=45)
 plt.tight_layout()
 plt.show()
+# this comes as the output
 # Folder: AIRPLANE - Number of files: 20
 # Folder: CARS - Number of files: 20
 # Folder: ELEPHANTS - Number of files: 39
