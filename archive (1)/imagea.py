@@ -1,5 +1,5 @@
 #part question 1 part a
-
+# ⟨ 2 Marks ⟩ Find out whether the given dataset is imbalanced, if found plot a bar plot for the number of images per class vs classes and mention the imbalanced class, and suggest methods to balance the dataset.
 import os
 import matplotlib.pyplot as plt
 from statistics import mode

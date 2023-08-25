@@ -1,3 +1,4 @@
+# 2. ⟨ 2 Marks ⟩ Randomly take 8 images from entire dataset and plot there respective histograms and label the class.
 import os
 import matplotlib.pyplot as plt
 from PIL import Image
@@ -46,10 +47,10 @@ for folder, image_idx in selected_images:
 
 # Initialize array to store grayscale values
 grayscale_values = []
-# printing 
-# Loop through selected images and convert to grayscale
+# printing  Loop through selected images and convert to grayscale
 for image_path, folder_name in selected_image_paths:
     print(image_path)
+    # gives intensity of that image 
     image = Image.open(image_path).convert('L')
     image_array = np.array(image)
     grayscale_values.extend(image_array.ravel())
@@ -62,7 +63,7 @@ class_grayscale = {}
 for image_path, folder_name in selected_image_paths:
     if folder_name not in class_grayscale:
         class_grayscale[folder_name] = []
-    # creating a folder of grey scale of that class if doesn't exist and then add value at (frequency) of given grayscale bin at each of it 
+    # creating a folder of grey scale of that class if doesn't exist and then add value of pixel grayscale of each image of given grayscale bin at each of it 
     class_grayscale[folder_name].extend(np.array(Image.open(image_path).convert('L')).ravel())
   
 # print(class_grayscale)
