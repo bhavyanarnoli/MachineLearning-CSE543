@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from PIL import Image
 import random
 import numpy as np
-
+import time
 base_dir = 'IMAGE_DATA/IMAGE_DATA'
 entries = os.listdir(base_dir)
 class_counts = {}
@@ -24,17 +24,29 @@ selected_images = []
 
 # Choose random folders and images
 # given chose 8 images from any folder , 
-# idea - choose any random folder then choose any random photo
-# probability of any photo is same and is an iid event of prob in this case as
-# 1/5 * (1/ number of pictures in that class)
-# hence it's randomised
-for _ in range(8):
-    random_folder = random.choice(list(class_counts.keys()))
+# Constraint of below function is that it's deciding on the basis of current time which can be 
+# predictive for given time but for different time it's difficult to determine the value
+
+def linearcongruentialgenerator(seed):
+    seed = (seed * 1103515245 + 12345) & 0x7fffffff
+    return seed
+current_time = int(time.time())
+
+    # Use the current time as a seed for the random number generator
+seed = current_time
+
+for randomchosenimage in range(8):
+    
+    random_folder = list(class_counts.keys())[linearcongruentialgenerator(seed) % len(class_counts)]
     num_files = class_counts[random_folder]
     
     if num_files > 0:
-        random_image = random.randint(0, num_files - 1) #now it's in range in both extremes
-        selected_images.append((random_folder, random_image)) 
+        random_image = linearcongruentialgenerator(seed) % num_files
+        selected_images.append((random_folder, random_image))
+        seed = linearcongruentialgenerator(seed)  # Update the seed for the next iteration
+
+print(selected_images)
+
 # Create a list to store the paths of selected images
 selected_image_paths = []
 
@@ -47,25 +59,25 @@ for folder, image_idx in selected_images:
 
 # Initialize array to store grayscale values
 grayscale_values = []
+
+# Create a dictionary to store class-wise grayscale values
+class_grayscale = {}
+
 # printing  Loop through selected images and convert to grayscale
 for image_path, folder_name in selected_image_paths:
     print(image_path)
     # gives intensity of that image 
-    image = Image.open(image_path).convert('L')
+    image = Image.open(image_path).convert('L') # convert image to grayscale matrices
     image_array = np.array(image)
     grayscale_values.extend(image_array.ravel())
-
-# Plot grayscale histogram with class labels
-plt.figure(figsize=(8, 6))
-
-# Create a dictionary to store class-wise grayscale values
-class_grayscale = {}
-for image_path, folder_name in selected_image_paths:
     if folder_name not in class_grayscale:
         class_grayscale[folder_name] = []
     # creating a folder of grey scale of that class if doesn't exist and then add value of pixel grayscale of each image of given grayscale bin at each of it 
     class_grayscale[folder_name].extend(np.array(Image.open(image_path).convert('L')).ravel())
-  
+
+# Plot grayscale histogram with class labels
+plt.figure(figsize=(8, 6))
+
 # print(class_grayscale)
 for folder_name, values in class_grayscale.items():
     # x axis has bins of grayscale , and y axis has frequency of it
@@ -76,7 +88,7 @@ plt.xlabel('Pixel Value')
 plt.ylabel('Frequency')
 plt.legend()
 #  for clearer frequencies at lower 
-plt.ylim(0, 2000) # can change to see outliers at top has what values
+plt.ylim(0, 1000) # can change to see outliers at top has what values
 
 plt.tight_layout()
 plt.show()
