@@ -1,201 +1,201 @@
 First Name,Last Name,Education,Occupation,Experience (Years),Salary,Occupation_ID,Education_encoded
-Freddie,Smith,Doctoral,Baker,8,142875,1,6
-Robert,Ferguson,Primary,Economist,12,61430,2,1
-Adele,Harrison,Primary,Electrician,17,121282,3,1
-Miranda,Alexander,Doctoral,Producer,8,35637,4,6
-Julia,Cole,Primary,Agronomist,24,75653,5,1
-Edgar,Wells,Doctoral,Salesman,3,78059,6,6
+Freddie,Smith,Doctoral,Baker,8,142875,1,1
+Robert,Ferguson,Primary,Economist,12,61430,2,2
+Adele,Harrison,Primary,Electrician,17,121282,3,2
+Miranda,Alexander,Doctoral,Producer,8,35637,4,1
+Julia,Cole,Primary,Agronomist,24,75653,5,2
+Edgar,Wells,Doctoral,Salesman,3,78059,6,1
 Kristian,Owens,Upper secondary,Police Officer,1,109988,7,3
 Adele,Taylor,Upper secondary,Fine Artist,15,179030,8,3
 Lucia,Craig,Upper secondary,Medic,7,161817,9,3
-Kristian,Ross,Doctoral,Interior Designer,5,64592,10,6
-Aston,Crawford,Master,Dancer,24,49813,11,5
-Aston,Wright,Primary,Producer,23,168431,4,1
-Sophia,Mitchell,Bachelor,Insurer,14,146047,12,4
+Kristian,Ross,Doctoral,Interior Designer,5,64592,10,1
+Aston,Crawford,Master,Dancer,24,49813,11,4
+Aston,Wright,Primary,Producer,23,168431,4,2
+Sophia,Mitchell,Bachelor,Insurer,14,146047,12,5
 Kristian,Payne,Upper secondary,Lawer,4,153807,13,3
-Arianna,Crawford,Lower secondary,Carpenter,21,96022,14,2
+Arianna,Crawford,Lower secondary,Carpenter,21,96022,14,6
 Fenton,Phillips,Upper secondary,Insurer,26,65866,12,3
-Lucy,Cole,Lower secondary,Engineer,21,98396,15,2
-Tiana,Elliott,Doctoral,Medic,19,96039,9,6
-Lyndon,Cunningham,Lower secondary,Producer,18,170607,4,2
-Maya,Sullivan,Master,Auditor,21,75483,16,5
+Lucy,Cole,Lower secondary,Engineer,21,98396,15,6
+Tiana,Elliott,Doctoral,Medic,19,96039,9,1
+Lyndon,Cunningham,Lower secondary,Producer,18,170607,4,6
+Maya,Sullivan,Master,Auditor,21,75483,16,4
 Garry,Wilson,Upper secondary,Photographer,5,188642,17,3
-Paige,Owens,Lower secondary,Interior Designer,17,114247,10,2
-Sarah,Walker,Lower secondary,Engineer,18,101464,15,2
-Jacob,Craig,Doctoral,Programmer,16,173326,18,6
-Edward,Payne,Doctoral,Chemist,6,56332,19,6
-Oliver,Thomas,Primary,Auditor,17,41253,16,1
-Alisa,Richardson,Doctoral,Meteorologist,24,158391,20,6
-Samantha,Cooper,Doctoral,Medic,22,54105,9,6
-Marcus,Fowler,Lower secondary,Veterinarian,14,184598,21,2
-Edgar,Chapman,Primary,Photographer,10,42474,17,1
+Paige,Owens,Lower secondary,Interior Designer,17,114247,10,6
+Sarah,Walker,Lower secondary,Engineer,18,101464,15,6
+Jacob,Craig,Doctoral,Programmer,16,173326,18,1
+Edward,Payne,Doctoral,Chemist,6,56332,19,1
+Oliver,Thomas,Primary,Auditor,17,41253,16,2
+Alisa,Richardson,Doctoral,Meteorologist,24,158391,20,1
+Samantha,Cooper,Doctoral,Medic,22,54105,9,1
+Marcus,Fowler,Lower secondary,Veterinarian,14,184598,21,6
+Edgar,Chapman,Primary,Photographer,10,42474,17,2
 Daisy,Wells,Upper secondary,Programmer,12,188542,18,3
 Abigail,Warren,Upper secondary,Graphic Designer,21,198022,22,3
-Frederick,Foster,Bachelor,Lecturer,30,122729,23,4
+Frederick,Foster,Bachelor,Lecturer,30,122729,23,5
 Charlotte,Watson,Upper secondary,Salesman,20,178680,6,3
-Marcus,Watson,Master,Botanist,19,135172,24,5
-Melissa,Ferguson,Bachelor,Historian,21,49636,25,4
-Catherine,Reed,Primary,Aeroplane Pilot,26,187001,26,1
-Aston,Foster,Doctoral,Dancer,24,62826,11,6
+Marcus,Watson,Master,Botanist,19,135172,24,4
+Melissa,Ferguson,Bachelor,Historian,21,49636,25,5
+Catherine,Reed,Primary,Aeroplane Pilot,26,187001,26,2
+Aston,Foster,Doctoral,Dancer,24,62826,11,1
 Mike,Kelley,Upper secondary,Interior Designer,30,155777,10,3
-Connie,Wilson,Master,Interpreter,23,78478,27,5
-Jack,Miller,Bachelor,Photographer,15,161070,17,4
-Maddie,Hunt,Primary,Firefighter,24,36692,28,1
-Jack,Taylor,Bachelor,Historian,1,44498,25,4
-Hailey,Carter,Lower secondary,Chef,3,30103,29,2
-Madaline,Hunt,Doctoral,Hairdresser,28,47680,30,6
-Stella,Richards,Doctoral,Astronomer,26,131523,31,6
-Carina,Jones,Primary,Physicist,19,149361,32,1
-Carlos,Rogers,Doctoral,Carpenter,4,135377,14,6
-Preston,Mitchell,Bachelor,Lawer,29,61723,13,4
-Sawyer,Rogers,Master,Lawer,18,111405,13,5
-Naomi,Davis,Bachelor,Jeweller,17,39418,33,4
-Alford,Mitchell,Primary,Mathematician,6,164838,34,1
-Alisa,Harrison,Lower secondary,Driver,2,110473,35,2
-Ryan,Montgomery,Doctoral,Composer,2,164611,36,6
-Emma,Harrison,Bachelor,Salesman,23,71679,6,4
-Edwin,Edwards,Bachelor,Engineer,27,96622,15,4
-Fenton,Turner,Lower secondary,Jeweller,4,52923,33,2
-Owen,Chapman,Primary,Jeweller,13,95171,33,1
-Lucy,Evans,Lower secondary,Firefighter,13,185597,28,2
+Connie,Wilson,Master,Interpreter,23,78478,27,4
+Jack,Miller,Bachelor,Photographer,15,161070,17,5
+Maddie,Hunt,Primary,Firefighter,24,36692,28,2
+Jack,Taylor,Bachelor,Historian,1,44498,25,5
+Hailey,Carter,Lower secondary,Chef,3,30103,29,6
+Madaline,Hunt,Doctoral,Hairdresser,28,47680,30,1
+Stella,Richards,Doctoral,Astronomer,26,131523,31,1
+Carina,Jones,Primary,Physicist,19,149361,32,2
+Carlos,Rogers,Doctoral,Carpenter,4,135377,14,1
+Preston,Mitchell,Bachelor,Lawer,29,61723,13,5
+Sawyer,Rogers,Master,Lawer,18,111405,13,4
+Naomi,Davis,Bachelor,Jeweller,17,39418,33,5
+Alford,Mitchell,Primary,Mathematician,6,164838,34,2
+Alisa,Harrison,Lower secondary,Driver,2,110473,35,6
+Ryan,Montgomery,Doctoral,Composer,2,164611,36,1
+Emma,Harrison,Bachelor,Salesman,23,71679,6,5
+Edwin,Edwards,Bachelor,Engineer,27,96622,15,5
+Fenton,Turner,Lower secondary,Jeweller,4,52923,33,6
+Owen,Chapman,Primary,Jeweller,13,95171,33,2
+Lucy,Evans,Lower secondary,Firefighter,13,185597,28,6
 Dominik,Wright,Upper secondary,Teacher,21,137486,37,3
-Agata,Anderson,Doctoral,Meteorologist,8,112028,20,6
-Jenna,Barnes,Primary,Driver,24,194623,35,1
-Miley,Williams,Bachelor,Police Officer,22,76335,7,4
-Roman,Foster,Primary,Graphic Designer,29,30716,22,1
-Kelsey,Evans,Primary,Botanist,1,107734,24,1
-Abigail,Wilson,Lower secondary,Medic,10,66865,9,2
-Sam,Harris,Doctoral,Photographer,8,47585,17,6
-Heather,Holmes,Lower secondary,Cook,22,68040,38,2
-Arnold,Wright,Master,Botanist,7,171093,24,5
-Valeria,Dixon,Lower secondary,Florist,24,160499,39,2
-Adison,Ryan,Bachelor,Physicist,8,31171,32,4
-Abigail,Higgins,Doctoral,Chemist,17,180518,19,6
-Steven,Barrett,Doctoral,Journalist,12,72601,40,6
-Isabella,Roberts,Master,Salesman,6,160613,6,5
-Natalie,Moore,Bachelor,Scientist,1,160132,41,4
-Vivian,Baker,Lower secondary,Historian,4,103130,25,2
-Alford,Carter,Doctoral,Electrician,14,147439,3,6
-Steven,Armstrong,Lower secondary,Fashion Designer,23,81607,42,2
+Agata,Anderson,Doctoral,Meteorologist,8,112028,20,1
+Jenna,Barnes,Primary,Driver,24,194623,35,2
+Miley,Williams,Bachelor,Police Officer,22,76335,7,5
+Roman,Foster,Primary,Graphic Designer,29,30716,22,2
+Kelsey,Evans,Primary,Botanist,1,107734,24,2
+Abigail,Wilson,Lower secondary,Medic,10,66865,9,6
+Sam,Harris,Doctoral,Photographer,8,47585,17,1
+Heather,Holmes,Lower secondary,Cook,22,68040,38,6
+Arnold,Wright,Master,Botanist,7,171093,24,4
+Valeria,Dixon,Lower secondary,Florist,24,160499,39,6
+Adison,Ryan,Bachelor,Physicist,8,31171,32,5
+Abigail,Higgins,Doctoral,Chemist,17,180518,19,1
+Steven,Barrett,Doctoral,Journalist,12,72601,40,1
+Isabella,Roberts,Master,Salesman,6,160613,6,4
+Natalie,Moore,Bachelor,Scientist,1,160132,41,5
+Vivian,Baker,Lower secondary,Historian,4,103130,25,6
+Alford,Carter,Doctoral,Electrician,14,147439,3,1
+Steven,Armstrong,Lower secondary,Fashion Designer,23,81607,42,6
 Rebecca,Smith,Upper secondary,Hairdresser,11,62729,30,3
-Heather,Hamilton,Primary,Pharmacist,6,76540,43,1
-Dainton,Casey,Doctoral,Lecturer,28,185877,23,6
-Bruce,Hill,Master,Lecturer,4,75936,23,5
-Oliver,Foster,Master,Botanist,29,38586,24,5
-Carlos,Jones,Lower secondary,Aeroplane Pilot,29,37780,26,2
-Tara,Andrews,Master,Lecturer,4,41571,23,5
-Melanie,Taylor,Lower secondary,Architect,25,145720,44,2
-Kirsten,Cunningham,Bachelor,Firefighter,9,98803,28,4
-Eleanor,Hunt,Bachelor,Auditor,24,31748,16,4
-Leonardo,Hunt,Bachelor,Graphic Designer,16,134370,22,4
-Chester,West,Primary,Manager,7,96093,45,1
-Sydney,Mason,Bachelor,Accountant,0,163052,46,4
-Paul,Walker,Doctoral,Photographer,22,159325,17,6
-Sarah,Evans,Master,Engineer,11,138600,15,5
-Maximilian,Andrews,Lower secondary,Agronomist,24,137993,5,2
-Dale,Barrett,Primary,Hairdresser,3,69583,30,1
+Heather,Hamilton,Primary,Pharmacist,6,76540,43,2
+Dainton,Casey,Doctoral,Lecturer,28,185877,23,1
+Bruce,Hill,Master,Lecturer,4,75936,23,4
+Oliver,Foster,Master,Botanist,29,38586,24,4
+Carlos,Jones,Lower secondary,Aeroplane Pilot,29,37780,26,6
+Tara,Andrews,Master,Lecturer,4,41571,23,4
+Melanie,Taylor,Lower secondary,Architect,25,145720,44,6
+Kirsten,Cunningham,Bachelor,Firefighter,9,98803,28,5
+Eleanor,Hunt,Bachelor,Auditor,24,31748,16,5
+Leonardo,Hunt,Bachelor,Graphic Designer,16,134370,22,5
+Chester,West,Primary,Manager,7,96093,45,2
+Sydney,Mason,Bachelor,Accountant,0,163052,46,5
+Paul,Walker,Doctoral,Photographer,22,159325,17,1
+Sarah,Evans,Master,Engineer,11,138600,15,4
+Maximilian,Andrews,Lower secondary,Agronomist,24,137993,5,6
+Dale,Barrett,Primary,Hairdresser,3,69583,30,2
 Alissa,Edwards,Upper secondary,Accountant,2,46773,46,3
-Michelle,Smith,Bachelor,Chef,5,90194,29,4
+Michelle,Smith,Bachelor,Chef,5,90194,29,5
 George,Clark,Upper secondary,Cook,12,86083,38,3
 Florrie,Barrett,Upper secondary,Medic,12,74331,9,3
-Cherry,Harrison,Doctoral,Driver,22,55907,35,6
-Aida,Murray,Doctoral,Composer,16,114745,36,6
-Samantha,Anderson,Master,Lawer,22,181527,13,5
-Charlotte,Edwards,Doctoral,Medic,15,76127,9,6
-Chester,Kelley,Bachelor,Cook,25,77323,38,4
-Grace,Craig,Master,Economist,10,106162,2,5
-Alberta,Reed,Bachelor,Fashion Designer,29,95054,42,4
-Edgar,Adams,Doctoral,Manager,10,74674,45,6
-Chloe,Hamilton,Doctoral,Cook,19,71905,38,6
-Carlos,Parker,Primary,Cook,4,79075,38,1
-Ashton,Alexander,Lower secondary,Engineer,4,110687,15,2
+Cherry,Harrison,Doctoral,Driver,22,55907,35,1
+Aida,Murray,Doctoral,Composer,16,114745,36,1
+Samantha,Anderson,Master,Lawer,22,181527,13,4
+Charlotte,Edwards,Doctoral,Medic,15,76127,9,1
+Chester,Kelley,Bachelor,Cook,25,77323,38,5
+Grace,Craig,Master,Economist,10,106162,2,4
+Alberta,Reed,Bachelor,Fashion Designer,29,95054,42,5
+Edgar,Adams,Doctoral,Manager,10,74674,45,1
+Chloe,Hamilton,Doctoral,Cook,19,71905,38,1
+Carlos,Parker,Primary,Cook,4,79075,38,2
+Ashton,Alexander,Lower secondary,Engineer,4,110687,15,6
 Jacob,Spencer,Upper secondary,Lawer,27,87449,13,3
-Max,Warren,Lower secondary,Architect,13,59675,44,2
-Dexter,Barnes,Lower secondary,Hairdresser,14,86620,30,2
-Ada,Edwards,Doctoral,Chemist,7,62605,19,6
-Rubie,Thompson,Lower secondary,Physicist,3,115160,32,2
-Reid,Allen,Primary,Cook,30,52250,38,1
-Walter,Campbell,Doctoral,Meteorologist,26,76666,20,6
+Max,Warren,Lower secondary,Architect,13,59675,44,6
+Dexter,Barnes,Lower secondary,Hairdresser,14,86620,30,6
+Ada,Edwards,Doctoral,Chemist,7,62605,19,1
+Rubie,Thompson,Lower secondary,Physicist,3,115160,32,6
+Reid,Allen,Primary,Cook,30,52250,38,2
+Walter,Campbell,Doctoral,Meteorologist,26,76666,20,1
 Edwin,Montgomery,Upper secondary,Salesman,21,79306,6,3
-Ashton,Morgan,Doctoral,Interpreter,23,81884,27,6
+Ashton,Morgan,Doctoral,Interpreter,23,81884,27,1
 Owen,Stewart,Upper secondary,Interpreter,0,155637,27,3
-Alen,Sullivan,Lower secondary,Chef,20,122937,29,2
-Maria,Cooper,Primary,Insurer,0,177854,12,1
-Jordan,Barnes,Master,Journalist,15,152542,40,5
-Kirsten,Grant,Doctoral,Physicist,25,174572,32,6
-Mary,Crawford,Doctoral,Engineer,6,33487,15,6
-Henry,Cameron,Master,Agronomist,0,97897,5,5
-Sawyer,Howard,Bachelor,Salesman,24,100263,6,4
-Audrey,Parker,Lower secondary,Firefighter,18,103911,28,2
-Lily,Hunt,Doctoral,Composer,13,124366,36,6
-Grace,Morgan,Bachelor,Geologist,21,134256,47,4
-Sienna,Anderson,Lower secondary,Lawer,3,132327,13,2
-Tiana,Carroll,Primary,Hairdresser,4,53478,30,1
+Alen,Sullivan,Lower secondary,Chef,20,122937,29,6
+Maria,Cooper,Primary,Insurer,0,177854,12,2
+Jordan,Barnes,Master,Journalist,15,152542,40,4
+Kirsten,Grant,Doctoral,Physicist,25,174572,32,1
+Mary,Crawford,Doctoral,Engineer,6,33487,15,1
+Henry,Cameron,Master,Agronomist,0,97897,5,4
+Sawyer,Howard,Bachelor,Salesman,24,100263,6,5
+Audrey,Parker,Lower secondary,Firefighter,18,103911,28,6
+Lily,Hunt,Doctoral,Composer,13,124366,36,1
+Grace,Morgan,Bachelor,Geologist,21,134256,47,5
+Sienna,Anderson,Lower secondary,Lawer,3,132327,13,6
+Tiana,Carroll,Primary,Hairdresser,4,53478,30,2
 Michelle,Kelly,Upper secondary,Singer,13,179302,48,3
-Miley,Crawford,Lower secondary,Historian,13,174054,25,2
-Adison,Craig,Lower secondary,Engineer,23,90496,15,2
+Miley,Crawford,Lower secondary,Historian,13,174054,25,6
+Adison,Craig,Lower secondary,Engineer,23,90496,15,6
 Ryan,Gibson,Upper secondary,Mechanic,5,151551,49,3
-Thomas,Bennett,Doctoral,Pharmacist,13,169869,43,6
-Brianna,Stevens,Bachelor,Photographer,21,167187,17,4
-Charlotte,Murphy,Lower secondary,Meteorologist,7,122148,20,2
+Thomas,Bennett,Doctoral,Pharmacist,13,169869,43,1
+Brianna,Stevens,Bachelor,Photographer,21,167187,17,5
+Charlotte,Murphy,Lower secondary,Meteorologist,7,122148,20,6
 Bruce,Martin,Upper secondary,Auditor,0,108896,16,3
-Jasmine,Higgins,Doctoral,Police Officer,16,91677,7,6
-Emma,Douglas,Lower secondary,Teacher,11,39499,37,2
-Garry,Morgan,Primary,Programmer,14,56653,18,1
-Kate,Stevens,Primary,Dancer,22,192782,11,1
-Honey,Walker,Master,Composer,2,137477,36,5
-Maximilian,Nelson,Primary,Lawer,12,98173,13,1
+Jasmine,Higgins,Doctoral,Police Officer,16,91677,7,1
+Emma,Douglas,Lower secondary,Teacher,11,39499,37,6
+Garry,Morgan,Primary,Programmer,14,56653,18,2
+Kate,Stevens,Primary,Dancer,22,192782,11,2
+Honey,Walker,Master,Composer,2,137477,36,4
+Maximilian,Nelson,Primary,Lawer,12,98173,13,2
 Victoria,Ross,Upper secondary,Pharmacist,2,115863,43,3
-Alisa,Bennett,Bachelor,Manager,14,133327,45,4
+Alisa,Bennett,Bachelor,Manager,14,133327,45,5
 Walter,Brooks,Upper secondary,Auditor,8,159770,16,3
 Kirsten,Robinson,Upper secondary,Programmer,8,138093,18,3
 Jessica,Harris,Upper secondary,Composer,7,194928,36,3
-Penelope,Casey,Primary,Chemist,4,109110,19,1
-Carlos,Campbell,Lower secondary,Carpenter,24,110434,14,2
-Paige,Hill,Bachelor,Manager,9,30618,45,4
-Patrick,Mason,Primary,Teacher,16,78443,37,1
-Violet,Jones,Primary,Chemist,18,67826,19,1
-Clark,Edwards,Master,Driver,22,62627,35,5
-Carina,Walker,Primary,Fine Artist,27,175093,8,1
-Alan,Adams,Bachelor,Insurer,22,65520,12,4
-Marcus,Kelley,Lower secondary,Jeweller,18,34174,33,2
-Robert,Hunt,Bachelor,Insurer,3,186446,12,4
-Carina,Howard,Primary,Graphic Designer,4,134587,22,1
-Melanie,Walker,Bachelor,Economist,25,182362,2,4
-Florrie,Crawford,Lower secondary,Social Worker,12,119567,50,2
-Abraham,Harper,Primary,Agronomist,22,47249,5,1
-Elian,Casey,Doctoral,Composer,14,31879,36,6
+Penelope,Casey,Primary,Chemist,4,109110,19,2
+Carlos,Campbell,Lower secondary,Carpenter,24,110434,14,6
+Paige,Hill,Bachelor,Manager,9,30618,45,5
+Patrick,Mason,Primary,Teacher,16,78443,37,2
+Violet,Jones,Primary,Chemist,18,67826,19,2
+Clark,Edwards,Master,Driver,22,62627,35,4
+Carina,Walker,Primary,Fine Artist,27,175093,8,2
+Alan,Adams,Bachelor,Insurer,22,65520,12,5
+Marcus,Kelley,Lower secondary,Jeweller,18,34174,33,6
+Robert,Hunt,Bachelor,Insurer,3,186446,12,5
+Carina,Howard,Primary,Graphic Designer,4,134587,22,2
+Melanie,Walker,Bachelor,Economist,25,182362,2,5
+Florrie,Crawford,Lower secondary,Social Worker,12,119567,50,6
+Abraham,Harper,Primary,Agronomist,22,47249,5,2
+Elian,Casey,Doctoral,Composer,14,31879,36,1
 Dominik,Casey,Upper secondary,Mathematician,16,30547,34,3
-Camila,Johnston,Doctoral,Programmer,10,98775,18,6
-Alexander,Barnes,Doctoral,Hairdresser,20,92191,30,6
-Carina,Wells,Doctoral,Chemist,30,117000,19,6
-Mike,Clark,Doctoral,Physicist,6,115984,32,6
-Tess,Dixon,Master,Aeroplane Pilot,17,99095,26,5
-Naomi,Taylor,Bachelor,Carpenter,21,73124,14,4
-Adison,Dixon,Bachelor,Firefighter,26,134764,28,4
-Mary,Phillips,Doctoral,Pharmacist,15,95111,43,6
-Aldus,Higgins,Bachelor,Salesman,14,126336,6,4
-Julian,Miller,Doctoral,Mechanic,25,43928,49,6
-Adrian,Murphy,Doctoral,Veterinarian,9,138864,21,6
-Natalie,Richards,Primary,Hairdresser,4,91686,30,1
-Rubie,Johnson,Primary,Geologist,21,35055,47,1
+Camila,Johnston,Doctoral,Programmer,10,98775,18,1
+Alexander,Barnes,Doctoral,Hairdresser,20,92191,30,1
+Carina,Wells,Doctoral,Chemist,30,117000,19,1
+Mike,Clark,Doctoral,Physicist,6,115984,32,1
+Tess,Dixon,Master,Aeroplane Pilot,17,99095,26,4
+Naomi,Taylor,Bachelor,Carpenter,21,73124,14,5
+Adison,Dixon,Bachelor,Firefighter,26,134764,28,5
+Mary,Phillips,Doctoral,Pharmacist,15,95111,43,1
+Aldus,Higgins,Bachelor,Salesman,14,126336,6,5
+Julian,Miller,Doctoral,Mechanic,25,43928,49,1
+Adrian,Murphy,Doctoral,Veterinarian,9,138864,21,1
+Natalie,Richards,Primary,Hairdresser,4,91686,30,2
+Rubie,Johnson,Primary,Geologist,21,35055,47,2
 Amber,Hunt,Upper secondary,Interpreter,23,106124,27,3
-Harold,Cole,Bachelor,Lawer,16,104961,13,4
-Vincent,Thompson,Master,Mechanic,9,69131,49,5
-Frederick,Richards,Lower secondary,Biochemist,7,199768,51,2
+Harold,Cole,Bachelor,Lawer,16,104961,13,5
+Vincent,Thompson,Master,Mechanic,9,69131,49,4
+Frederick,Richards,Lower secondary,Biochemist,7,199768,51,6
 Lucas,Roberts,Upper secondary,Mechanic,20,196665,49,3
-Maximilian,Richardson,Lower secondary,Veterinarian,3,63157,21,2
+Maximilian,Richardson,Lower secondary,Veterinarian,3,63157,21,6
 Miranda,Robinson,Upper secondary,Singer,29,96279,48,3
-Arianna,Harper,Primary,Mechanic,30,174641,49,1
-Ted,Watson,Lower secondary,Mathematician,6,112371,34,2
-Penelope,Thomas,Lower secondary,Economist,17,167645,2,2
-Connie,Richardson,Primary,Auditor,29,67755,16,1
-Vanessa,West,Bachelor,Police Officer,0,156317,7,4
-Vivian,Wells,Bachelor,Historian,22,97713,25,4
-Ryan,Reed,Bachelor,Agronomist,27,108529,5,4
-Albert,Hamilton,Master,Lawer,15,119417,13,5
-Oscar,Ferguson,Bachelor,Producer,29,74836,4,4
+Arianna,Harper,Primary,Mechanic,30,174641,49,2
+Ted,Watson,Lower secondary,Mathematician,6,112371,34,6
+Penelope,Thomas,Lower secondary,Economist,17,167645,2,6
+Connie,Richardson,Primary,Auditor,29,67755,16,2
+Vanessa,West,Bachelor,Police Officer,0,156317,7,5
+Vivian,Wells,Bachelor,Historian,22,97713,25,5
+Ryan,Reed,Bachelor,Agronomist,27,108529,5,5
+Albert,Hamilton,Master,Lawer,15,119417,13,4
+Oscar,Ferguson,Bachelor,Producer,29,74836,4,5
 Arthur,Scott,Upper secondary,Geologist,19,115026,47,3
-Abigail,Clark,Master,Mathematician,24,152707,34,5
+Abigail,Clark,Master,Mathematician,24,152707,34,4
 Harold,Owens,Upper secondary,Geologist,5,172473,47,3
-Carl,Walker,Bachelor,Insurer,15,77976,12,4
+Carl,Walker,Bachelor,Insurer,15,77976,12,5
