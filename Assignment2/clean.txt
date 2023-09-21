@@ -7,3 +7,4 @@ Part 2 unsupervised
 2) 
 
 merge unsupervise in same ipynb
+correct the writng part of assignment
