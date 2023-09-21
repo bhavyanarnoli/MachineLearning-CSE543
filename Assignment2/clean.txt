@@ -1,12 +1,9 @@
 Question 1)
-  1) explain ordinal relationship explain code as well, is it correct to do in both
-  2) Put in different cells and explain each of them
-Question 2)
-  1) Explain meaning properly
-Question 3)
-    ols done in polynomial regression  is it fine?
-    used a specefic degree for polynomial diff on different
-Question 5)
-  Poor correlation matrix poorer results put in different cells
-correlation matrix from scratch?
+Have to put in diff cells and do labels as well
+also compare multiple polynomial with upar wale
+Part 2 unsupervised
 
+1) component, first and second principal component. ?? and three columns are sufficient or not ?  [ are all the components assumed really relevant in the context ]
+2) 
+
+merge unsupervise in same ipynb
